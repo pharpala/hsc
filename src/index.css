@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Indian Flag Color Variables */
+:root {
+    --saffron: #FF671F;
+    --saffron-light: #FF8C42;
+    --saffron-dark: #e55a1a;
+    --white: #FFFFFF;
+    --green: #228B22;
+    --green-light: #32CD32;
+    --navy-blue: #000080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background: #FFFFFF; /* Primary white */
+    color: #000000; /* Default text black */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container-2 {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.btn {
+    background: #dfa690; /* Primary red */
+    color: #FFFFFF; /* White text */
+    padding: 12px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #187BB4; /* Secondary blue on hover */
+}
+
+.dark-btn {
+    background: #000000; /* Primary black */
+    color: #FFC429; /* Secondary yellow text */
+}
+
+.contact-container {
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.club-container {
+    padding-top: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media (max-width: 800px) {
+    .club-container .contact-container {
+        margin-top: 50px; 
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 800px) {
+    .spacing {
+        margin: 70px;
+    }
+}
