@@ -91,7 +91,7 @@ const Team = () => {
                 {
                     id: 7,
                     name: "Pranay Harpalani",
-                    position: "VP of Professional Development",
+                    position: "Software Engineer",
                     image: "/Team/pranay.jpeg",
                     description: "Orchestrates world-class professional development experiences that have transformed careers and created lasting business relationships.",
                     expertise: ["Executive Education", "Event Strategy", "Network Facilitation", "Leadership Development"],
@@ -132,7 +132,7 @@ const Team = () => {
             {/* Team Header */}
             <div className="team-header">
                 <h1 className="team-title">Meet Our Team</h1>
-                <p className="team-subtitle">The passionate individuals driving Asian Business Leaders forward</p>
+                <p className="team-subtitle">The passionate individuals driving the club forward</p>
             </div>
 
             {/* Department Tabs */}

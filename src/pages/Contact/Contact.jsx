@@ -52,13 +52,7 @@ const Contact = () => {
               to our university community.
           </p>
               <ul>
-                  <li><img src={mail_icon} alt="mail" />cepssc@uoguelph.ca </li>
-                  <li> <img src={location_icon} alt="mail" />
-                      1301 Summerlee Science Complex
-                      University of Guelph
-                      474-570 Gordon St, Guelph, ON
-                      N1G 1Y2 
-                  </li>
+                  <li><img src={mail_icon} alt="mail" />guelph.hsc@gmail.com </li>
               </ul>
         </div>
         <div className="contact-col">
