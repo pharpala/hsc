@@ -112,6 +112,15 @@ const Team = () => {
                     description: "Bio-Medical Science, Year 2",
                     linkedin: "https://linkedin.com/in/jai-poddar",
                     email: "jai@hsc.org"
+                },
+                {
+                    id: 9,
+                    name: "Jay Patel",
+                    position: "Communication Manager",
+                    image: "/Team/jay.jpeg",
+                    description: "Bio-Medical Science, Year 2",
+                    linkedin: "https://linkedin.com/in/jai-poddar",
+                    email: "jai@hsc.org"
                 }
             ]
         },
